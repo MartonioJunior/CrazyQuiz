@@ -18,6 +18,22 @@
                 "Cadeira de Rodas",
                 "Barco"
             );
+            
+            _store.SaveQuestion(
+                "Continue a sequência: < | > _ _ < | _ | > _ _ _ < | _ _ | >", 2,
+                " _ _ _ < | _ |>",
+                " _ _ _ _ < | _ _ _ | >",
+                " _ _ _ _ < | _ | _ _ >",
+                " _ _ _ _ _ < | >"
+            );
+            
+            _store.SaveQuestion(
+                "Qual o nome do criador do aplicativo que ajuda os desempregados a encontrar um emprego?", 3,
+                "Classificados do Diário",
+                "Mark Zuchenberg",
+                "Steve Jobs",
+                "Bill Gates"
+            );
 
             _store.SaveQuestion(
                 "Marque a resposta 5!", 3,
